@@ -1,0 +1,69 @@
+<html>
+
+    <head>
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- Nicer bootstrap -->
+        <link href="nicer-bootstrap.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" id="myModalButton" data-toggle="modal" data-target="#myModal">
+            Open Modal
+        </button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <!--
+                        #######################################################
+                        ###  JUST ADD `blue` CLASS TO PRIMARY ACTION BUTTON ###
+                        #######################################################
+                        -->
+                        <button type="button" class="btn btn-default blue">Some action</button>
+
+                        <!--
+                        ##################################################
+                        ###  JUST ADD `gray` CLASS TO SECONDARY BUTTON ###
+                        ##################################################
+                        -->
+                        <button type="button" class="btn btn-default gray" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#myModalButton").click(); // Emulate button click
+            });
+        </script>
+
+    </body>
+
+</html>
