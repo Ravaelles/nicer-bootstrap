@@ -5,7 +5,9 @@ It is based on: http://tutorialzine.com/2010/12/better-confirm-box-jquery-css3/
 
 # Example
 
-<a href="http://prntscr.com/8lhg1v" target="_href">See an example</a>
+<a href="http://www.examples.rafalponiatowski.vdl.pl/modal.html" target="_href">See an example of *nicer* modal window</a>
+
+<a href="http://www.examples.rafalponiatowski.vdl.pl/modal-default.html" target="_href">See default bootstrap modal window</a>
 
 # Install
 
